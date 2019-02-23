@@ -6,7 +6,7 @@
 /*   By: jopaning <jopaning@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/22 23:13:58 by jopaning          #+#    #+#             */
-/*   Updated: 2019/02/23 10:57:26 by jopaning         ###   ########.fr       */
+/*   Updated: 2019/02/23 18:35:55 by jopaning         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ void	ft_putnbr(int nb)
 	ft_putchar(number % 10 + '0');
 }
 
-int		ft_atoi(char **av)
+int		ft_fake_atoi(char **av)
 {
 	int	i;
 	int	j;
